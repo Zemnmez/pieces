@@ -1,0 +1,12 @@
+[submodule "react-oauth2-hook"]
+	path = react-oauth2-hook
+	url = git@github.com:Zemnmez/react-oauth2-hook.git
+[submodule "mermaid-render"]
+	path = mermaid-render
+	url = git@github.com:Zemnmez/mermaid-render.git
+[submodule "remark-mermaid"]
+	path = remark-mermaid
+	url = git@github.com:Zemnmez/remark-mermaid.git
+[submodule "react-storage-hook"]
+	path = react-storage-hook
+	url = git@github.com:Zemnmez/react-storage-hook.git
