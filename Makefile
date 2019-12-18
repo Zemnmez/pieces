@@ -1,2 +1,3 @@
 README.md: header.md $(wildcard */README.md)
-	cat $(filter-out $<,$^) | sed 's/^#/##/g' | cat $< - > $@
+	echo $(dir $(filter-out $<,$^)) | tr ' ' '\n' | sed 's/^.*$$/* (\0)[.\/\0]/g' | \
+		cat header.md - > $@;
