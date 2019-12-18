@@ -10,3 +10,6 @@
 [submodule "react-storage-hook"]
 	path = react-storage-hook
 	url = git@github.com:Zemnmez/react-storage-hook.git
+[submodule "mermaiddown"]
+	path = mermaiddown
+	url = git@github.com:Zemnmez/mermaiddown.git
