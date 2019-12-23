@@ -1,0 +1,9 @@
+{
+  "name": "conpro",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.12.21"
+  }
+}
